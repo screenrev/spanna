@@ -2,14 +2,13 @@
 
 // initialise test framework
 let chai = require('chai');
-// let should = chai.should(); // in-case we need to use should.exist() &c.
 chai.should();
 
 // the testee
-let match = require('../library/utils/email/match');
+let match = require('../email/match');
 
 
-describe('utils/email/match', () => {
+describe('email/match', () => {
 	match.should.be.a('regexp');
 
 	it('matches standard email', () => {

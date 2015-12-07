@@ -2,14 +2,13 @@
 
 // initialise test framework
 let chai = require('chai');
-// let should = chai.should(); // in-case we need to use should.exist() &c.
 chai.should();
 
 // the testee
-let validate = require('../library/utils/email/validate');
+let validate = require('../email/validate');
 
 
-describe('utils/email/validate', () => {
+describe('email/validate', () => {
 	validate.should.be.a('function');
 
 	it('validates standard email', () => {
