@@ -1,0 +1,29 @@
+{
+  "name": "screenrev-spanna",
+  "version": "0.1.0",
+  "description": "Library of general utility methods",
+  "main": "spanna.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/screenrev/spanna.git"
+  },
+  "keywords": [
+    "utils",
+    "utility",
+    "utilities",
+    "util",
+    "functions"
+  ],
+  "author": "gap@screenrev.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/screenrev/spanna/issues"
+  },
+  "homepage": "https://github.com/screenrev/spanna#readme"
+}
